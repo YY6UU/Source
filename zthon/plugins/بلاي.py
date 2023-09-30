@@ -9,7 +9,7 @@ plugin_category = "الترفيه"
 
 # بلاي 
 M = (
-    "**𓆰**  𝙎𝙊𝙐𝙍𝘾𝙀 𝗧𝗘𝗣𝗧𝗛𝗢𝗡   **العـاب الاونلايـن** 🎮𓆪 \n"
+    "**𓆰**  𝙎𝙊𝙐𝙍𝘾𝙀 𝗞𝗔𝗜𝗗𝗢   **العـاب الاونلايـن** 🎮𓆪 \n"
     "◐━─━─━─━──━─━─━─━◐\n\n"
     "  ❶ **⪼**  [حرب الفضاء 🛸](https://t.me/gamee?game=ATARIAsteroids)   \n"
     "  ❷ **⪼**  [لعبة فلابي بيرد 🐥](https://t.me/awesomebot?game=FlappyBird)   \n"
@@ -30,8 +30,8 @@ M = (
     "  ⓱ **⪼**  [جيت واي 🚨](https://t.me/gamee?game=Getaway)   \n"
     "  ⓲ **⪼**  [الالـوان 🔮](https://t.me/gamee?game=ColorHit)   \n"
     "  ⓳ **⪼**  [مدفع الكرات🏮](https://t.me/gamee?game=NeonBlaster)   \n\n\n"
-    "**𓄂-** 𝙎𝙊𝙐𝙍𝘾𝙀 𝘿𝙀𝙑 **⪼**  [محمد](t.me/A_D_P)   \n"
-    "**𓆰** 𝙎𝙊𝙐𝙍𝘾𝙀 𝙍𝙀𝙋𝙊 **⪼**  [𝗧𝗘𝗣𝗧𝗛𝗢𝗡 ](https://t.me/Tepthon)  "
+    "**𓄂-** 𝙎𝙊𝙐𝙍𝘾𝙀 𝘿𝙀𝙑 **⪼**  [حيدر](t.me/HAIDAR_MY)   \n"
+    "**𓆰** 𝙎𝙊𝙐𝙍𝘾𝙀 𝙍𝙀𝙋𝙊 **⪼**  [ 𝗞𝗔𝗜𝗗𝗢 ](https://t.me/kaido_q)  "
 )
 
 
@@ -39,7 +39,7 @@ M = (
     pattern="بلاي$",
     command=("بلاي", plugin_category),
     info={
-        "header": "العـاب الانـلاين لـ سـورس تيبـثون",
+        "header": "العـاب الانـلاين لـ سـورس كايدو",
         "الاستـخـدام": "{tr}بلاي",
     },
 )

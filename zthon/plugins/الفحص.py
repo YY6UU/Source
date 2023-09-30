@@ -31,12 +31,12 @@ async def amireallyalive(event):
     reply_to_id = await reply_id(event)
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    zedevent = await edit_or_reply(event, "**⛥ ⤻ انتـظࢪ جـاࢪي فـحص بـ ـوت TEᑭTᕼOᑎ الخـاص بـِك   ۦ**")
+    zedevent = await edit_or_reply(event, "**⛥ ⤻ انتـظࢪ جـاࢪي فـحص بـ ـوت KᗩIᗪO الخـاص بـِك   ۦ**")
     end = datetime.now()
     ms = (end - start).microseconds / 1000
     _, check_sgnirts = check_data_base_heal_th()
     Z_EMOJI = gvarstatus("ALIVE_EMOJI") or "☼ ⤶"
-    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "** ☼ TEᑭTᕼOᑎ ᗯOᖇKՏ ՏᑌᑕᑕEՏՏᖴᑌᒪᒪY ‌‌‏𓅓 . **"
+    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "** ☼ KᗩIᗪO ᗯOᖇKՏ ՏᑌᑕᑕEՏՏᖴᑌᒪᒪY ‌‌‏𓅓 . **"
     ZED_IMG = gvarstatus("ALIVE_PIC")
     zed_caption = gvarstatus("ALIVE_TEMPLATE") or zed_temp
     caption = zed_caption.format(
@@ -73,7 +73,7 @@ async def amireallyalive(event):
 zed_temp = """{ALIVE_TEXT}
 ———————⛥ ———————
 **{Z_EMOJI} َTEᒪETᕼOᑎ 𓋪** `{telever}`
-**{Z_EMOJI} TEᑭTᕼOᑎ 𓋪** `{zdver}`
+**{Z_EMOJI} KᗩIᗪO 𓋪** `{zdver}`
 **{Z_EMOJI} َᑭYTᕼOᑎ 𓋪** `{pyver}`
 **{Z_EMOJI} ᑌᑭTIᗰE 𓋪** `{uptime}`
 **{Z_EMOJI} OᗯᑎEᖇ 𓋪** {mention}"""
@@ -93,9 +93,9 @@ async def amireallyialive(event):
     "A kind of showing bot details by your inline bot"
     reply_to_id = await reply_id(event)
     Z_EMOJI = gvarstatus("ALIVE_EMOJI") or "☼ ⤶"
-    zed_caption = "** ☼ TEᑭTᕼOᑎ ᗯOᖇKՏ ՏᑌᑕᑕEՏՏᖴᑌᒪᒪY ‌‌‏𓅓 . **\n"
+    zed_caption = "** ☼ KᗩIᗪO ᗯOᖇKՏ ՏᑌᑕᑕEՏՏᖴᑌᒪᒪY ‌‌‏𓅓 . **\n"
     zed_caption += f"**{Z_EMOJI} َTEᒪETᕼOᑎ 𓋪** `{version.__version__}\n`"
-    zed_caption += f"**{Z_EMOJI} TEᑭTᕼOᑎ 𓋪 :** `{zedversion}`\n"
+    zed_caption += f"**{Z_EMOJI} KᗩIᗪO 𓋪 :** `{zedversion}`\n"
     zed_caption += f"**{Z_EMOJI} َᑭYTᕼOᑎ 𓋪** `{python_version()}\n`"
     zed_caption += f"**{Z_EMOJI} OᗯᑎEᖇ 𓋪** {mention}\n"
     results = await event.client.inline_query(Config.TG_BOT_USERNAME, zed_caption)

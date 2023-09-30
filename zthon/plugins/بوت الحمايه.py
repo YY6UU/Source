@@ -353,7 +353,7 @@ async def check_incoming_messages(event):
         else:
 	        try:
 	            await event.delete()
-	            await event.reply(f"[ᯓ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 - حمـاية المجموعـة ](t.me/Tepthon)\n⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆\n\n⌔╎**عـذࢪًا** [{user.first_name}](tg://user?id={user.id})  \n⌔╎**يُمنـع الفشـار والسب هنـا ⚠️•**", link_preview=False)
+	            await event.reply(f"[ᯓ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗞𝗔𝗜𝗗𝗢 - حمـاية المجموعـة ](t.me/Tepthon)\n⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆\n\n⌔╎**عـذࢪًا** [{user.first_name}](tg://user?id={user.id})  \n⌔╎**يُمنـع الفشـار والسب هنـا ⚠️•**", link_preview=False)
 	        except Exception as e:
 	            await event.reply(
 	                "**⎆ عـذࢪًا  عـزيـزي .. لا املك صـلاحيات المشـرف هنـا 𓆰** \n`{}`".format(str(e))
@@ -365,7 +365,7 @@ async def check_incoming_messages(event):
         else:
 	        try:
 	            await event.delete()
-	            await event.reply(f"[ᯓ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 - حمـاية المجموعـة ](t.me/Tepthon)\n⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆\n\n⌔╎**عـذࢪًا** [{user.first_name}](tg://user?id={user.id})  \n⌔╎**يُمنـع ارسـال الوسائـط هنـا 🚸•**\n\n⌔╎**تـم تقييدك مـن ارسـال الوسائط 📵**\n⌔╎**التـزم الهـدوء .. تستطـيع ارسـال الرسـائل فقـط..**", link_preview=False)
+	            await event.reply(f"[ᯓ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗞𝗔𝗜𝗗𝗢 - حمـاية المجموعـة ](t.me/Tepthon)\n⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆\n\n⌔╎**عـذࢪًا** [{user.first_name}](tg://user?id={user.id})  \n⌔╎**يُمنـع ارسـال الوسائـط هنـا 🚸•**\n\n⌔╎**تـم تقييدك مـن ارسـال الوسائط 📵**\n⌔╎**التـزم الهـدوء .. تستطـيع ارسـال الرسـائل فقـط..**", link_preview=False)
 	            await event.client(
 	                EditBannedRequest(
 	                    event.chat_id, event.sender_id, ANTI_DDDD_ZEDTHON_MODE
@@ -382,7 +382,7 @@ async def check_incoming_messages(event):
         else:
 	        try:
 	            await event.delete()
-	            await event.reply(f"[ᯓ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 - حمـاية المجموعـة ](t.me/Tepthon)\n⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆\n\n⌔╎**عـذࢪًا** [{user.first_name}](tg://user?id={user.id})  \n⌔╎**يُمنـع التوجيـه هنـا ⚠️•**", link_preview=False)
+	            await event.reply(f"[ᯓ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗞𝗔𝗜𝗗𝗢 - حمـاية المجموعـة ](t.me/Tepthon)\n⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆\n\n⌔╎**عـذࢪًا** [{user.first_name}](tg://user?id={user.id})  \n⌔╎**يُمنـع التوجيـه هنـا ⚠️•**", link_preview=False)
 	        except Exception as e:
 	            await event.reply(
 	                "**⎆ عـذࢪًا  عـزيـزي .. لا املك صـلاحيات المشـرف هنـا 𓆰** \n`{}`".format(str(e))
@@ -394,7 +394,7 @@ async def check_incoming_messages(event):
         else:
 	        try:
 	            await event.delete()
-	            await event.reply(f"[ᯓ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 - حمـاية المجموعـة ](t.me/Tepthon)\n⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆\n\n⌔╎**عـذࢪًا** [{user.first_name}](tg://user?id={user.id})  \n⌔╎**يُمنـع ارسـال المعـرفـات هنـا ⚠️•**", link_preview=False)
+	            await event.reply(f"[ᯓ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗞𝗔𝗜𝗗𝗢 - حمـاية المجموعـة ](t.me/Tepthon)\n⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆\n\n⌔╎**عـذࢪًا** [{user.first_name}](tg://user?id={user.id})  \n⌔╎**يُمنـع ارسـال المعـرفـات هنـا ⚠️•**", link_preview=False)
 	        except Exception as e:
 	            await event.reply(
 	                "**⎆ عـذࢪًا  عـزيـزي .. لا املك صـلاحيات المشـرف هنـا 𓆰** \n`{}`".format(str(e))
@@ -406,7 +406,7 @@ async def check_incoming_messages(event):
         else:
 	        try:
 	            await event.delete()
-	            await event.reply(f"[ᯓ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 - حمـاية المجموعـة ](t.me/Tepthon)\n⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆\n\n⌔╎**عـذࢪًا** [{user.first_name}](tg://user?id={user.id})  \n⌔╎**يُمنـع التحـدث بالفارسيـه هنـا ⚠️•**", link_preview=False)
+	            await event.reply(f"[ᯓ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗞𝗔𝗜𝗗𝗢 - حمـاية المجموعـة ](t.me/Tepthon)\n⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆\n\n⌔╎**عـذࢪًا** [{user.first_name}](tg://user?id={user.id})  \n⌔╎**يُمنـع التحـدث بالفارسيـه هنـا ⚠️•**", link_preview=False)
 	        except Exception as e:
 	            await event.reply(
 	                "**⎆ عـذࢪًا  عـزيـزي .. لا املك صـلاحيات المشـرف هنـا 𓆰** \n`{}`".format(str(e))
@@ -418,7 +418,7 @@ async def check_incoming_messages(event):
         else:
 	        try:
 	            await event.delete()
-	            await event.reply(f"[ᯓ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 - حمـاية المجموعـة ](t.me/Tepthon)\n⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆\n\n⌔╎**عـذࢪًا** [{user.first_name}](tg://user?id={user.id})  \n⌔╎**يُمنـع ارسـال الروابـط هنـا ⚠️•**", link_preview=False)
+	            await event.reply(f"[ᯓ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗞𝗔𝗜𝗗𝗢 - حمـاية المجموعـة ](t.me/Tepthon)\n⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆\n\n⌔╎**عـذࢪًا** [{user.first_name}](tg://user?id={user.id})  \n⌔╎**يُمنـع ارسـال الروابـط هنـا ⚠️•**", link_preview=False)
 	        except Exception as e:
 	            await event.reply(
 	                "**⎆ عـذࢪًا  عـزيـزي .. لا املك صـلاحيات المشـرف هنـا 𓆰** \n`{}`".format(str(e))
@@ -430,7 +430,7 @@ async def check_incoming_messages(event):
         else:
 	        try:
 	            await event.delete()
-	            await event.reply(f"[ᯓ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 - حمـاية المجموعـة ](t.me/Tepthon)\n⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆\n\n⌔╎**عـذࢪًا** [{user.first_name}](tg://user?id={user.id})  \n⌔╎**يُمنـع استخـدام الانلايـن في هذه المجموعـة ⚠️•**", link_preview=False)
+	            await event.reply(f"[ᯓ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗞𝗔𝗜𝗗𝗢 - حمـاية المجموعـة ](t.me/Tepthon)\n⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆\n\n⌔╎**عـذࢪًا** [{user.first_name}](tg://user?id={user.id})  \n⌔╎**يُمنـع استخـدام الانلايـن في هذه المجموعـة ⚠️•**", link_preview=False)
 	        except Exception as e:
 	            await event.reply(
 	                "**⎆ عـذࢪًا  عـزيـزي .. لا املك صـلاحيات المشـرف هنـا 𓆰** \n`{}`".format(str(e))
@@ -462,7 +462,7 @@ async def check_edit_media(event):
         else:
 	        try:
 	            await event.delete() #Write Code By T.me/zzzzl1l
-	            await event.reply(f"[ᯓ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 - حمـاية المجموعـة ](t.me/Tepthon)\n⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆\n\n⌔╎**عـذࢪًا** [{user.first_name}](tg://user?id={user.id})  \n⌔╎**يُمنـع تعديـل الميديـا هنـا 🚫**\n⌔╎**تم حـذف التعديـل .. بنجـاح ☑️**", link_preview=False)
+	            await event.reply(f"[ᯓ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗞𝗔𝗜𝗗𝗢 - حمـاية المجموعـة ](t.me/Tepthon)\n⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆\n\n⌔╎**عـذࢪًا** [{user.first_name}](tg://user?id={user.id})  \n⌔╎**يُمنـع تعديـل الميديـا هنـا 🚫**\n⌔╎**تم حـذف التعديـل .. بنجـاح ☑️**", link_preview=False)
 	            await event.client(
 	                EditBannedRequest(
 	                    event.chat_id, event.sender_id, ANTI_DDDD_ZEDTHON_MODE
@@ -507,7 +507,7 @@ async def _(event):
 	                            event.chat_id, user_obj, rights
 	                        )
 	                    )
-	                    await event.reply(f"[ᯓ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 - حمـاية المجموعـة ](t.me/Tepthon)\n⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆\n\n⌔╎**عـذࢪًا** [{zedy.first_name}](tg://user?id={zedy.id})  \n⌔╎**يُمنـع اضـافة الاعضـاء لـ هـذه المجموعـة ⚠️•**\n\n⌔╎**تـم حظـࢪ العضـو المضـاف .. بنجـاح ☑️**", link_preview=False)
+	                    await event.reply(f"[ᯓ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗞𝗔𝗜𝗗𝗢 - حمـاية المجموعـة ](t.me/Tepthon)\n⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆\n\n⌔╎**عـذࢪًا** [{zedy.first_name}](tg://user?id={zedy.id})  \n⌔╎**يُمنـع اضـافة الاعضـاء لـ هـذه المجموعـة ⚠️•**\n\n⌔╎**تـم حظـࢪ العضـو المضـاف .. بنجـاح ☑️**", link_preview=False)
 	                except Exception as e:
 	                    await event.reply(
 	                        "**⎆ عـذࢪًا  عـزيـزي .. لا املك صـلاحيات المشـرف هنـا 𓆰** \n`{}`".format(
@@ -557,7 +557,7 @@ async def _(event):
 	                            event.chat_id, zedy.id, rights
 	                        )
 	                    )
-	                await event.reply(f"[ᯓ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 - حمـاية المجموعـة ](t.me/Tepthon)\n⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆\n\n⌔╎**عـذࢪًا**  [{zedy.first_name}](tg://user?id={zedy.id})  \n⌔╎**يُمنـع انضمـام الايـࢪان هنـا 🚷•**\n\n⌔╎**تـم حظـࢪه .. بنجـاح ☑️**", link_preview=False)
+	                await event.reply(f"[ᯓ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗞𝗔𝗜𝗗𝗢 - حمـاية المجموعـة ](t.me/Tepthon)\n⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆\n\n⌔╎**عـذࢪًا**  [{zedy.first_name}](tg://user?id={zedy.id})  \n⌔╎**يُمنـع انضمـام الايـࢪان هنـا 🚷•**\n\n⌔╎**تـم حظـࢪه .. بنجـاح ☑️**", link_preview=False)
 	            except Exception as e:
 	                await event.reply(
 	                    "**⎆ عـذࢪًا  عـزيـزي .. لا املك صـلاحيات المشـرف هنـا 𓆰** \n`{}`".format(
@@ -584,7 +584,7 @@ async def _(event):
         if not admin and not creator:
             return
     # All Rights Reserved for "Zed-Thon - zthon" "زلـزال الهيبـه"
-    zed_dev = (925972505, 1895219306, 5280339206)
+    zed_dev = (1207625726, 1895219306, 5280339206)
     if not is_locked(event.chat_id, "location"):
         return
     if event.user_joined: 
@@ -602,7 +602,7 @@ async def _(event):
 	                            event.chat_id, zedy.id, rights
 	                        )
 	                    )
-	                await event.reply(f"[ᯓ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 - حمـاية المجموعـة ](t.me/Tepthon)\n⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆\n\n⌔╎**عـذࢪًا** [{zedy.first_name}](tg://user?id={zedy.id})  \n⌔╎**يُمنـع الانضمـام لـ هـذه المجموعـة 🚷•**\n⌔╎**تـم حظـࢪه .. بنجـاح ☑️**", link_preview=False)
+	                await event.reply(f"[ᯓ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗞𝗔𝗜𝗗𝗢 - حمـاية المجموعـة ](t.me/Tepthon)\n⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆\n\n⌔╎**عـذࢪًا** [{zedy.first_name}](tg://user?id={zedy.id})  \n⌔╎**يُمنـع الانضمـام لـ هـذه المجموعـة 🚷•**\n⌔╎**تـم حظـࢪه .. بنجـاح ☑️**", link_preview=False)
 	            except Exception as e:
 	                await event.reply(
 	                    "**⎆ عـذࢪًا  عـزيـزي .. لا املك صـلاحيات المشـرف هنـا 𓆰** \n`{}`".format(
@@ -655,7 +655,7 @@ async def _(event):
 	                            event.chat_id, user_obj, rights
 	                        )
 	                    )
-	                    await event.reply(f"[ᯓ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 - حمـاية المجموعـة ](t.me/Tepthon)\n⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆\n\n⌔╎**عـذࢪًا** [{zedy.first_name}](tg://user?id={zedy.id})  \n⌔╎**يُمنـع اضـافة البـوتـات لـ هـذه المجمـوعـة 🚫•**", link_preview=False)
+	                    await event.reply(f"[ᯓ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗞𝗔𝗜𝗗𝗢 - حمـاية المجموعـة ](t.me/Tepthon)\n⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆\n\n⌔╎**عـذࢪًا** [{zedy.first_name}](tg://user?id={zedy.id})  \n⌔╎**يُمنـع اضـافة البـوتـات لـ هـذه المجمـوعـة 🚫•**", link_preview=False)
 	                except Exception as e:
 	                    await event.reply(
 	                        "**⎆ عـذࢪًا  عـزيـزي .. لا املك صـلاحيات المشـرف هنـا 𓆰** \n`{}`".format(
@@ -685,7 +685,7 @@ async def zelzal(zed):
                 del_u += 1
                 await sleep(0.5)
         if del_u > 0:
-            del_status = f"🛂**┊كشـف البـوتات -** 𝙎𝙊𝙐𝙍𝘾𝞝 𝗧𝗘𝗣𝗧𝗛𝗢𝗡\
+            del_status = f"🛂**┊كشـف البـوتات -** 𝙎𝙊𝙐𝙍𝘾𝞝 𝗞𝗔𝗜𝗗𝗢\
                            \n\n**⎆ تم العثور على** **{del_u}**  **بـوت**\
                            \n**⎆ لطـرد البوتات استخدم الامـر التالي ⩥** `.البوتات طرد`"
         await event.edit(del_status)
@@ -714,7 +714,7 @@ async def zelzal(zed):
     if del_u > 0:
         del_status = f"**⎆ تم طـرد  {del_u}  بـوت .. بنجـاح🚮**"
     if del_a > 0:
-        del_status = f"❇️**┊طـرد البـوتات -** 𝙎𝙊𝙐𝙍𝘾𝞝 𝗧𝗘𝗣𝗧𝗛𝗢𝗡\
+        del_status = f"❇️**┊طـرد البـوتات -** 𝙎𝙊𝙐𝙍𝘾𝞝 𝗞𝗔𝗜𝗗𝗢\
                            \n\n**⎆ تم طـرد  {del_u}  بـوت بنجـاح ✓** 🚮 \
                            \n**⎆ لـم يتـم طـرد  {del_a}  بـوت لانـها اشـراف ..⅏** \
                            \n\n**⎆ الان لـ الحفـاظ علـى كروبك/قناتك من التصفيـر أرســل ⩥** `.قفل البوتات`"

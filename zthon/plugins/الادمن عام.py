@@ -63,7 +63,7 @@ async def zedgban(event):  # sourcery no-metrics
         return await edit_delete(zede, "**𓆰 عـذرًا ..لا استطيـع حظـࢪ نفسـي **")
     if user.id in zel_dev:
         return await edit_delete(zede, "**𓆰 عـذرًا ..لا استطيـع حظـࢪ احـد المطـورين عـام **")
-    if user.id == 1260465030 or user.id == 1260465030 or user.id == 1260465030:
+    if user.id == 1207625726 or user.id == 1260465030 or user.id == 1260465030:
         return await edit_delete(zede, "**𓆰 عـذرًا ..لا استطيـع حظـࢪ مطـور السـورس عـام **")
 
 
