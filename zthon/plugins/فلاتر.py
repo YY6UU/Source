@@ -231,7 +231,7 @@ async def memes(event):
     pattern="الخطوط(?:\s|$)([\s\S]*)",
     command=("الخطوط", plugin_category),
     info={
-        "header": "لعـرض قائمـة خطـوط تيبثـون",
+        "header": "لعـرض قائمـة خطـوط باورثـون",
         "الاستخـدام": "{tr}.الخطوط",
     },
 )
@@ -267,7 +267,7 @@ async def lang(event):
     if input_str not in font_list:
         catevent = await edit_or_reply(event, "**⎉╎قم بكتابه اسم الخط بشكل صحيح ...؟!**")
         await asyncio.sleep(1)
-        await catevent.edit(f"**⎉╎قائمـة خطـوط تيبثـون هـي :-**\n\n{FONTS}")
+        await catevent.edit(f"**⎉╎قائمـة خطـوط باورثـون هـي :-**\n\n{FONTS}")
     else:
         arg = f"zthon/helpers/styles/{input_str}"
         addgvar("ZED_FONTS", arg)
