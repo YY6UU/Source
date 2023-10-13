@@ -265,9 +265,9 @@ async def variable(event):
         variable = "ALIVE_NAME"
         await asyncio.sleep(1.5)
         if variable in heroku_var:
-            await zed.edit("**❈╎تم تغييـر {} بنجـاح ☑️**\n**❈╎المتغيـر : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
+            await zed.edit("**❈╎تم تغييـر {} بنجـاح ☑️**\n**❈╎المتغيـر : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
         else:
-            await zed.edit("**❈╎تم اضافـة {} بنجـاح ☑️** \n**❈╎المضاف اليه :**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
+            await zed.edit("**❈╎تم اضافـة {} بنجـاح ☑️** \n**❈╎المضاف اليه :**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
         heroku_var[variable] = vinfo
 
     elif input_str == "رسائل الحماية" or input_str == "رسائل الحمايه" or input_str == "رسائل الخاص" or input_str == "رسائل حماية الخاص" or input_str == "عدد التحذيرات":
@@ -282,7 +282,7 @@ async def variable(event):
         variable = "MAX_FLOOD_IN_PMS"
         await asyncio.sleep(1.5)
         if vinfo.isdigit():
-            await zed.edit("**❈╎تم تغييـر {} بنجـاح ☑️**\n**❈╎المتغيـر : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
+            await zed.edit("**❈╎تم تغييـر {} بنجـاح ☑️**\n**❈╎المتغيـر : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
         else:
             return await zed.edit("**❈╎خطـأ .. قم بالـرد ع رقـم فقـط ؟!**")
         heroku_var[variable] = vinfo
@@ -299,9 +299,9 @@ async def variable(event):
         variable = "STRING_SESSION"
         await asyncio.sleep(1.5)
         if variable in heroku_var:
-            await zed.edit("**❈╎تم تغييـر {} بنجـاح ☑️**\n**❈╎المتغيـر : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
+            await zed.edit("**❈╎تم تغييـر {} بنجـاح ☑️**\n**❈╎المتغيـر : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
         else:
-            await zed.edit("**❈╎تم اضافـة {} بنجـاح ☑️** \n**❈╎المضاف اليه :**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
+            await zed.edit("**❈╎تم اضافـة {} بنجـاح ☑️** \n**❈╎المضاف اليه :**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
         heroku_var[variable] = vinfo
 
     elif input_str == "كروب الرسائل" or input_str == "كروب التخزين" or input_str == "كروب الخاص":
@@ -316,9 +316,9 @@ async def variable(event):
         variable = "PM_LOGGER_GROUP_ID"
         await asyncio.sleep(1.5)
         if variable in heroku_var:
-            await zed.edit("**❈╎تم تغييـر {} بنجـاح ☑️**\n**❈╎المتغيـر : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
+            await zed.edit("**❈╎تم تغييـر {} بنجـاح ☑️**\n**❈╎المتغيـر : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
         else:
-            await zed.edit("**❈╎تم اضافـة {} بنجـاح ☑️** \n**❈╎المضاف اليه :**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
+            await zed.edit("**❈╎تم اضافـة {} بنجـاح ☑️** \n**❈╎المضاف اليه :**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
         heroku_var[variable] = vinfo
     elif input_str == "السجل" or input_str == "كروب السجل":
         if Config.HEROKU_API_KEY is None:
@@ -332,9 +332,9 @@ async def variable(event):
         variable = "PRIVATE_GROUP_BOT_API_ID"
         await asyncio.sleep(1.5)
         if variable in heroku_var:
-            await zed.edit("**❈╎تم تغييـر {} بنجـاح ☑️**\n**❈╎المتغيـر : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
+            await zed.edit("**❈╎تم تغييـر {} بنجـاح ☑️**\n**❈╎المتغيـر : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
         else:
-            await zed.edit("**❈╎تم اضافـة {} بنجـاح ☑️** \n**❈╎المضاف اليه :**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
+            await zed.edit("**❈╎تم اضافـة {} بنجـاح ☑️** \n**❈╎المضاف اليه :**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
         heroku_var[variable] = vinfo
     elif input_str == "السجل 2" or input_str == "كروب السجل 2":
         if Config.HEROKU_API_KEY is None:
@@ -348,9 +348,9 @@ async def variable(event):
         variable = "PRIVATE_GROUP_ID"
         await asyncio.sleep(1.5)
         if variable in heroku_var:
-            await zed.edit("**❈╎تم تغييـر {} بنجـاح ☑️**\n**❈╎المتغيـر : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
+            await zed.edit("**❈╎تم تغييـر {} بنجـاح ☑️**\n**❈╎المتغيـر : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
         else:
-            await zed.edit("**❈╎تم اضافـة {} بنجـاح ☑️** \n**❈╎المضاف اليه :**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
+            await zed.edit("**❈╎تم اضافـة {} بنجـاح ☑️** \n**❈╎المضاف اليه :**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
         heroku_var[variable] = vinfo
     elif input_str == "قناة السجل" or input_str == "قناة السجلات":
         if Config.HEROKU_API_KEY is None:
@@ -364,9 +364,9 @@ async def variable(event):
         variable = "PRIVATE_CHANNEL_BOT_API_ID"
         await asyncio.sleep(1.5)
         if variable in heroku_var:
-            await zed.edit("**❈╎تم تغييـر {} بنجـاح ☑️**\n**❈╎المتغيـر : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
+            await zed.edit("**❈╎تم تغييـر {} بنجـاح ☑️**\n**❈╎المتغيـر : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
         else:
-            await zed.edit("**❈╎تم اضافـة {} بنجـاح ☑️** \n**❈╎المضاف اليه :**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
+            await zed.edit("**❈╎تم اضافـة {} بنجـاح ☑️** \n**❈╎المضاف اليه :**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
         heroku_var[variable] = vinfo
     elif input_str == "قناة الملفات" or input_str == "قناة الاضافات":
         if Config.HEROKU_API_KEY is None:
@@ -380,9 +380,9 @@ async def variable(event):
         variable = "PLUGIN_CHANNEL"
         await asyncio.sleep(1.5)
         if variable in heroku_var:
-            await zed.edit("**❈╎تم تغييـر {} بنجـاح ☑️**\n**❈╎المتغيـر : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
+            await zed.edit("**❈╎تم تغييـر {} بنجـاح ☑️**\n**❈╎المتغيـر : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
         else:
-            await zed.edit("**❈╎تم اضافـة {} بنجـاح ☑️** \n**❈╎المضاف اليه :**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
+            await zed.edit("**❈╎تم اضافـة {} بنجـاح ☑️** \n**❈╎المضاف اليه :**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
         heroku_var[variable] = vinfo
     elif input_str == "ايديي" or input_str == "ايدي الحساب":
         if Config.HEROKU_API_KEY is None:
@@ -396,7 +396,7 @@ async def variable(event):
         variable = "OWNER_ID"
         await asyncio.sleep(1.5)
         if vinfo.isdigit():
-            await zed.edit("**❈╎تم تغييـر {} بنجـاح ☑️**\n**❈╎المتغيـر : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
+            await zed.edit("**❈╎تم تغييـر {} بنجـاح ☑️**\n**❈╎المتغيـر : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
         else:
             return await zed.edit("**❈╎خطـأ .. قم بالـرد ع رقـم فقـط ؟!**")
         heroku_var[variable] = vinfo
@@ -412,17 +412,17 @@ async def variable(event):
         variable = "COMMAND_HAND_LER"
         await asyncio.sleep(1.5)
         if variable in heroku_var:
-            await zed.edit("**❈╎تم تغييـر {} بنجـاح ☑️**\n**❈╎المتغيـر : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
+            await zed.edit("**❈╎تم تغييـر {} بنجـاح ☑️**\n**❈╎المتغيـر : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
         else:
-            await zed.edit("**❈╎تم اضافـة {} بنجـاح ☑️** \n**❈╎المضاف اليه :**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
+            await zed.edit("**❈╎تم اضافـة {} بنجـاح ☑️** \n**❈╎المضاف اليه :**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
         heroku_var[variable] = vinfo
     elif input_str == "التوكن" or input_str == "توكن البوت":
         variable = "TG_BOT_TOKEN"
         await asyncio.sleep(1.5)
         if variable in heroku_var:
-            await zed.edit("**❈╎تم تغييـر {} بنجـاح ☑️**\n**❈╎المتغيـر : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
+            await zed.edit("**❈╎تم تغييـر {} بنجـاح ☑️**\n**❈╎المتغيـر : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
         else:
-            await zed.edit("**❈╎تم اضافـة {} بنجـاح ☑️** \n**❈╎المضاف اليه :**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
+            await zed.edit("**❈╎تم اضافـة {} بنجـاح ☑️** \n**❈╎المضاف اليه :**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
         heroku_var[variable] = vinfo
     elif input_str == "معرف البوت" or input_str == "معرف بوت":
         if Config.HEROKU_API_KEY is None:
@@ -436,9 +436,9 @@ async def variable(event):
         variable = "TG_BOT_USERNAME"
         await asyncio.sleep(1.5)
         if variable in heroku_var:
-            await zed.edit("**❈╎تم تغييـر {} بنجـاح ☑️**\n**❈╎المتغيـر : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
+            await zed.edit("**❈╎تم تغييـر {} بنجـاح ☑️**\n**❈╎المتغيـر : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
         else:
-            await zed.edit("**❈╎تم اضافـة {} بنجـاح ☑️** \n**❈╎المضاف اليه :**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
+            await zed.edit("**❈╎تم اضافـة {} بنجـاح ☑️** \n**❈╎المضاف اليه :**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
         heroku_var[variable] = vinfo
     elif input_str == "الريبو" or input_str == "السورس":
         if Config.HEROKU_API_KEY is None:
@@ -452,9 +452,9 @@ async def variable(event):
         variable = "UPSTREAM_REPO"
         await asyncio.sleep(1.5)
         if variable in heroku_var:
-            await zed.edit("**❈╎تم تغييـر {} بنجـاح ☑️**\n**❈╎المتغيـر : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
+            await zed.edit("**❈╎تم تغييـر {} بنجـاح ☑️**\n**❈╎المتغيـر : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
         else:
-            await zed.edit("**❈╎تم اضافـة {} بنجـاح ☑️** \n**❈╎المضاف اليه :**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
+            await zed.edit("**❈╎تم اضافـة {} بنجـاح ☑️** \n**❈╎المضاف اليه :**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
         heroku_var[variable] = vinfo
     elif input_str == "توكن المكافح" or input_str == "كود المكافح" or input_str == "مكافح التخريب" or input_str == "مكافح التفليش":
         if Config.HEROKU_API_KEY is None:
@@ -468,9 +468,9 @@ async def variable(event):
         variable = "SPAMWATCH_API"
         await asyncio.sleep(1.5)
         if variable in heroku_var:
-            await zed.edit("**❈╎تم تغييـر {} بنجـاح ☑️**\n**❈╎المتغيـر : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
+            await zed.edit("**❈╎تم تغييـر {} بنجـاح ☑️**\n**❈╎المتغيـر : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
         else:
-            await zed.edit("**❈╎تم اضافـة {} بنجـاح ☑️** \n**❈╎المضاف اليه :**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
+            await zed.edit("**❈╎تم اضافـة {} بنجـاح ☑️** \n**❈╎المضاف اليه :**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
         heroku_var[variable] = vinfo
     elif input_str == "توكن الذكاء" or input_str == "مفتاح الذكاء" or input_str == "الذكاء":
         if Config.HEROKU_API_KEY is None:
@@ -483,15 +483,15 @@ async def variable(event):
         variable = "OPENAI_API_KEY"
         await asyncio.sleep(1.5)
         if variable in heroku_var:
-            await zed.edit("**❈╎تم تغييـر {} بنجـاح ☑️**\n**❈╎المتغيـر : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
+            await zed.edit("**❈╎تم تغييـر {} بنجـاح ☑️**\n**❈╎المتغيـر : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
         else:
-            await zed.edit("**❈╎تم اضافـة {} بنجـاح ☑️** \n**❈╎المضاف اليه :**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
+            await zed.edit("**❈╎تم اضافـة {} بنجـاح ☑️** \n**❈╎المضاف اليه :**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
         heroku_var[variable] = vinfo
     elif input_str == "ايقاف الترحيب" or input_str == "نوم الترحيب":
         variable = "TIME_STOP"
         await asyncio.sleep(1.5)
         if vinfo.isdigit():
-            await zed.edit("**❈╎تم تغييـر {} بنجـاح ☑️**\n**❈╎المتغيـر : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
+            await zed.edit("**❈╎تم تغييـر {} بنجـاح ☑️**\n**❈╎المتغيـر : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, vinfo))
         else:
             return await zed.edit("**❈╎خطـأ .. قم بالـرد ع رقـم فقـط ؟!**")
         addgvar("TIME_STOP", vinfo)
@@ -533,7 +533,7 @@ async def variable(event):
         await asyncio.sleep(1.5)
         if gvarstatus("ALIVE_TEMPLATE") is None:
         	return await zed.edit("**❈╎عـذࢪاً عـزيـزي .. انت لـم تقـم بإضـافـة فـار {} اصـلاً...**".format(input_str))
-        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, variable))
+        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, variable))
         delgvar("ALIVE_TEMPLATE")
         
     elif input_str == "كليشة الحماية" or input_str == "كليشه الحمايه" or input_str == "كليشه الحماية" or input_str == "كليشة الحمايه":
@@ -541,7 +541,7 @@ async def variable(event):
         await asyncio.sleep(1.5)
         if gvarstatus("pmpermit_txt") is None:
         	return await zed.edit("**❈╎عـذࢪاً عـزيـزي .. انت لـم تقـم بإضـافـة فـار {} اصـلاً...**".format(input_str))
-        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, variable))
+        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, variable))
         delgvar("pmpermit_txt")
 
     elif input_str == "كليشة البوت" or input_str == "كليشه البوت":
@@ -549,7 +549,7 @@ async def variable(event):
         await asyncio.sleep(1.5)
         if gvarstatus("START_TEXT") is None:
         	return await zed.edit("**❈╎عـذࢪاً عـزيـزي .. انت لـم تقـم بإضـافـة فـار {} اصـلاً...**".format(input_str))
-        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, variable))
+        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, variable))
         delgvar("START_TEXT")
 
     elif input_str == "كليشة الحظر" or input_str == "كليشه الحظر":
@@ -557,7 +557,7 @@ async def variable(event):
         await asyncio.sleep(1.5)
         if gvarstatus("pmblock") is None:
         	return await zed.edit("**❈╎عـذࢪاً عـزيـزي .. انت لـم تقـم بإضـافـة فـار {} اصـلاً...**".format(input_str))
-        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, variable))
+        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, variable))
         delgvar("pmblock")
 
     elif input_str == "صورة الفحص" or input_str == "صوره الفحص":
@@ -613,7 +613,7 @@ async def variable(event):
         await asyncio.sleep(1.5)
         if gvarstatus("DIGITAL_PIC") is None:
         	return await zed.edit("**❈╎عـذࢪاً عـزيـزي .. انت لـم تقـم بإضـافـة فـار {} اصـلاً...**".format(input_str))
-        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, variable))
+        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, variable))
         delgvar("DIGITAL_PIC")
 
     elif input_str == "رمز الوقتي" or input_str == "رمز الاسم الوقتي":
@@ -628,14 +628,14 @@ async def variable(event):
         await asyncio.sleep(1.5)
         if variable not in heroku_var:
         	return await zed.edit("**❈╎عـذࢪاً عـزيـزي .. انت لـم تقـم بإضـافـة فـار {} اصـلاً...**".format(input_str))
-        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, heroku_var[variable]))
+        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, heroku_var[variable]))
         del heroku_var[variable]
     elif input_str == "رسائل الحماية" or input_str == "رسائل الحمايه" or input_str == "رسائل الخاص" or input_str == "رسائل حماية الخاص" or input_str == "عدد التحذيرات":
         variable = "MAX_FLOOD_IN_PMS"
         await asyncio.sleep(1.5)
         if variable not in heroku_var:
         	return await zed.edit("**❈╎عـذࢪاً عـزيـزي .. انت لـم تقـم بإضـافـة فـار {} اصـلاً...**".format(input_str))
-        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, heroku_var[variable]))
+        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, heroku_var[variable]))
         del heroku_var[variable]
     elif input_str == "البايو" or input_str == "البايو الوقتي" or input_str == "النبذه الوقتيه":
         variable = "DEFAULT_BIO"
@@ -649,14 +649,14 @@ async def variable(event):
         await asyncio.sleep(1.5)
         if variable not in heroku_var:
         	return await zed.edit("**❈╎عـذࢪاً عـزيـزي .. انت لـم تقـم بإضـافـة فـار {} اصـلاً...**".format(input_str))
-        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, heroku_var[variable]))
+        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, heroku_var[variable]))
         del heroku_var[variable]
     elif input_str == "كروب الرسائل" or input_str == "كروب التخزين" or input_str == "كروب الخاص":
         variable = "PM_LOGGER_GROUP_ID"
         await asyncio.sleep(1.5)
         if variable not in heroku_var:
         	return await zed.edit("**❈╎عـذࢪاً عـزيـزي .. انت لـم تقـم بإضـافـة فـار {} اصـلاً...**".format(input_str))
-        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, heroku_var[variable]))
+        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, heroku_var[variable]))
         del heroku_var[variable]
 
     elif input_str == "السجل" or input_str == "كروب السجل":
@@ -664,7 +664,7 @@ async def variable(event):
         await asyncio.sleep(1.5)
         if variable not in heroku_var:
         	return await zed.edit("**❈╎عـذࢪاً عـزيـزي .. انت لـم تقـم بإضـافـة فـار {} اصـلاً...**".format(input_str))
-        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, heroku_var[variable]))
+        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, heroku_var[variable]))
         del heroku_var[variable]
 
     elif input_str == "السجل 2" or input_str == "كروب السجل 2":
@@ -672,7 +672,7 @@ async def variable(event):
         await asyncio.sleep(1.5)
         if variable not in heroku_var:
         	return await zed.edit("**❈╎عـذࢪاً عـزيـزي .. انت لـم تقـم بإضـافـة فـار {} اصـلاً...**".format(input_str))
-        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, heroku_var[variable]))
+        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, heroku_var[variable]))
         del heroku_var[variable]
 
     elif input_str == "قناة السجل" or input_str == "قناة السجلات":
@@ -680,7 +680,7 @@ async def variable(event):
         await asyncio.sleep(1.5)
         if variable not in heroku_var:
         	return await zed.edit("**❈╎عـذࢪاً عـزيـزي .. انت لـم تقـم بإضـافـة فـار {} اصـلاً...**".format(input_str))
-        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, heroku_var[variable]))
+        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, heroku_var[variable]))
         del heroku_var[variable]
 
     elif input_str == "قناة الملفات" or input_str == "قناة الاضافات":
@@ -688,7 +688,7 @@ async def variable(event):
         await asyncio.sleep(1.5)
         if variable not in heroku_var:
         	return await zed.edit("**❈╎عـذࢪاً عـزيـزي .. انت لـم تقـم بإضـافـة فـار {} اصـلاً...**".format(input_str))
-        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, heroku_var[variable]))
+        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, heroku_var[variable]))
         del heroku_var[variable]
 
     elif input_str == "التحقق" or input_str == "كود التحقق":
@@ -704,7 +704,7 @@ async def variable(event):
         await asyncio.sleep(1.5)
         if variable not in heroku_var:
         	return await zed.edit("**❈╎عـذࢪاً عـزيـزي .. انت لـم تقـم بإضـافـة فـار {} اصـلاً...**".format(input_str))
-        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, heroku_var[variable]))
+        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, heroku_var[variable]))
         del heroku_var[variable]
 
     elif input_str == "نقطة الاوامر" or input_str == "نقطه الاوامر":
@@ -712,7 +712,7 @@ async def variable(event):
         await asyncio.sleep(1.5)
         if variable not in heroku_var:
         	return await zed.edit("**❈╎عـذࢪاً عـزيـزي .. انت لـم تقـم بإضـافـة فـار {} اصـلاً...**".format(input_str))
-        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, heroku_var[variable]))
+        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, heroku_var[variable]))
         del heroku_var[variable]
 
     elif input_str == "التوكن" or input_str == "توكن البوت":
@@ -720,7 +720,7 @@ async def variable(event):
         await asyncio.sleep(1.5)
         if variable not in heroku_var:
         	return await zed.edit("**❈╎عـذࢪاً عـزيـزي .. انت لـم تقـم بإضـافـة فـار {} اصـلاً...**".format(input_str))
-        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, heroku_var[variable]))
+        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, heroku_var[variable]))
         del heroku_var[variable]
 
     elif input_str == "معرف البوت" or input_str == "معرف بوت":
@@ -728,7 +728,7 @@ async def variable(event):
         await asyncio.sleep(1.5)
         if variable not in heroku_var:
         	return await zed.edit("**❈╎عـذࢪاً عـزيـزي .. انت لـم تقـم بإضـافـة فـار {} اصـلاً...**".format(input_str))
-        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, heroku_var[variable]))
+        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, heroku_var[variable]))
         del heroku_var[variable]
 
     elif input_str == "الريبو" or input_str == "السورس":
@@ -736,7 +736,7 @@ async def variable(event):
         await asyncio.sleep(1.5)
         if variable not in heroku_var:
         	return await zed.edit("**❈╎عـذࢪاً عـزيـزي .. انت لـم تقـم بإضـافـة فـار {} اصـلاً...**".format(input_str))
-        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, heroku_var[variable]))
+        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, heroku_var[variable]))
         del heroku_var[variable]
 
     elif input_str == "اسمي التلقائي" or input_str == "الاسم التلقاائي":
@@ -744,7 +744,7 @@ async def variable(event):
         await asyncio.sleep(1.5)
         if variable not in heroku_var:
         	return await zed.edit("**❈╎عـذࢪاً عـزيـزي .. انت لـم تقـم بإضـافـة فـار {} اصـلاً...**".format(input_str))
-        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, heroku_var[variable]))
+        await zed.edit("**❈╎تم حـذف {} بنجـاح ☑️**\n**❈╎المتغيـر المحـذوف : ↶**\n `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str, heroku_var[variable]))
         del heroku_var[variable]
     elif input_str == "ايموجي الايدي" or input_str == "ايموجي ايدي" or input_str == "رمز الايدي" or input_str == "رمز ايدي" or input_str == "الرمز ايدي":
         variable = gvarstatus("CUSTOM_ALIVE_EMOJI")
@@ -1179,57 +1179,57 @@ async def variable(event):
         variable = "TZ"
         await asyncio.sleep(1.5)
         if variable in heroku_var:
-            await zed.edit("**❈╎تم تغييـر المنطقـة الزمنيـة .. بنجـاح ☑️**\n**❈╎المتغير : ↶**\n دولـة `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str))
+            await zed.edit("**❈╎تم تغييـر المنطقـة الزمنيـة .. بنجـاح ☑️**\n**❈╎المتغير : ↶**\n دولـة `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str))
         else:
-            await zed.edit("**❈╎تم إضـافـة المنطقـة الزمنيـة .. بنجـاح ☑️**\n**❈╎المضـاف اليـه : ↶**\n دولـة `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str))
+            await zed.edit("**❈╎تم إضـافـة المنطقـة الزمنيـة .. بنجـاح ☑️**\n**❈╎المضـاف اليـه : ↶**\n دولـة `{}` \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str))
         heroku_var[variable] = viraq
     elif input_str == "مصر" or input_str == "ليبيا" or input_str == "القاهرة":
         variable = "TZ"
         await asyncio.sleep(1.5)
         if variable in heroku_var:
-            await zed.edit("**❈╎تم تغييـر المنطقـة الزمنيـة .. بنجـاح ☑️**\n**❈╎المتغير : ↶**\n دولـة `{}`  \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str))
+            await zed.edit("**❈╎تم تغييـر المنطقـة الزمنيـة .. بنجـاح ☑️**\n**❈╎المتغير : ↶**\n دولـة `{}`  \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str))
         else:
-            await zed.edit("**❈╎تم إضـافـة المنطقـة الزمنيـة .. بنجـاح ☑️**\n**❈╎المضـاف اليـه : ↶**\n دولـة `{}`  \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str))
+            await zed.edit("**❈╎تم إضـافـة المنطقـة الزمنيـة .. بنجـاح ☑️**\n**❈╎المضـاف اليـه : ↶**\n دولـة `{}`  \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str))
         heroku_var[variable] = vmsr
     elif input_str == "دبي" or input_str == "الامارات" or input_str == "عمان" or input_str == "مسقط":
         variable = "TZ"
         await asyncio.sleep(1.5)
         if variable in heroku_var:
-            await zed.edit("**❈╎تم تغييـر المنطقـة الزمنيـة .. بنجـاح ☑️**\n**❈╎المتغير : ↶**\n دولـة `{}`  \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str))
+            await zed.edit("**❈╎تم تغييـر المنطقـة الزمنيـة .. بنجـاح ☑️**\n**❈╎المتغير : ↶**\n دولـة `{}`  \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str))
         else:
-            await zed.edit("**❈╎تم إضـافـة المنطقـة الزمنيـة .. بنجـاح ☑️**\n**❈╎المضـاف اليـه : ↶**\n دولـة `{}`  \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str))
+            await zed.edit("**❈╎تم إضـافـة المنطقـة الزمنيـة .. بنجـاح ☑️**\n**❈╎المضـاف اليـه : ↶**\n دولـة `{}`  \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str))
         heroku_var[variable] = vdubai
     elif input_str == "تركيا" or input_str == "اسطنبول" or input_str == "انقرة":
         variable = "TZ"
         await asyncio.sleep(1.5)
         if variable in heroku_var:
-            await zed.edit("**❈╎تم تغييـر المنطقـة الزمنيـة .. بنجـاح ☑️**\n**❈╎المتغير : ↶**\n دولـة `{}`  \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str))
+            await zed.edit("**❈╎تم تغييـر المنطقـة الزمنيـة .. بنجـاح ☑️**\n**❈╎المتغير : ↶**\n دولـة `{}`  \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str))
         else:
-            await zed.edit("**❈╎تم إضـافـة المنطقـة الزمنيـة .. بنجـاح ☑️**\n**❈╎المضـاف اليـه : ↶**\n دولـة `{}`  \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str))
+            await zed.edit("**❈╎تم إضـافـة المنطقـة الزمنيـة .. بنجـاح ☑️**\n**❈╎المضـاف اليـه : ↶**\n دولـة `{}`  \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str))
         heroku_var[variable] = vturk
     elif input_str == "تونس" or input_str == "الجزائر":
         variable = "TZ"
         await asyncio.sleep(1.5)
         if variable in heroku_var:
-            await zed.edit("**❈╎تم تغييـر المنطقـة الزمنيـة .. بنجـاح ☑️**\n**❈╎المتغير : ↶**\n دولـة `{}`  \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str))
+            await zed.edit("**❈╎تم تغييـر المنطقـة الزمنيـة .. بنجـاح ☑️**\n**❈╎المتغير : ↶**\n دولـة `{}`  \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str))
         else:
-            await zed.edit("**❈╎تم إضـافـة المنطقـة الزمنيـة .. بنجـاح ☑️**\n**❈╎المضـاف اليـه : ↶**\n دولـة `{}`  \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str))
+            await zed.edit("**❈╎تم إضـافـة المنطقـة الزمنيـة .. بنجـاح ☑️**\n**❈╎المضـاف اليـه : ↶**\n دولـة `{}`  \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str))
         heroku_var[variable] = valgiers
     elif input_str == "المغرب" or input_str == "موريتانيا" or input_str == "الدار البيضاء":
         variable = "TZ"
         await asyncio.sleep(1.5)
         if variable in heroku_var:
-            await zed.edit("**❈╎تم تغييـر المنطقـة الزمنيـة .. بنجـاح ☑️**\n**❈╎المتغير : ↶**\n دولـة `{}`  \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str))
+            await zed.edit("**❈╎تم تغييـر المنطقـة الزمنيـة .. بنجـاح ☑️**\n**❈╎المتغير : ↶**\n دولـة `{}`  \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str))
         else:
-            await zed.edit("**❈╎تم إضـافـة المنطقـة الزمنيـة .. بنجـاح ☑️**\n**❈╎المضـاف اليـه : ↶**\n دولـة `{}`  \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str))
+            await zed.edit("**❈╎تم إضـافـة المنطقـة الزمنيـة .. بنجـاح ☑️**\n**❈╎المضـاف اليـه : ↶**\n دولـة `{}`  \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str))
         heroku_var[variable] = vmoroco        
     elif input_str == "ايران" or input_str == "طهران":
         variable = "TZ"
         await asyncio.sleep(1.5)
         if variable in heroku_var:
-            await zed.edit("**❈╎تم تغييـر المنطقـة الزمنيـة .. بنجـاح ☑️**\n**❈╎المتغير : ↶**\n دولـة `{}`  \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str))
+            await zed.edit("**❈╎تم تغييـر المنطقـة الزمنيـة .. بنجـاح ☑️**\n**❈╎المتغير : ↶**\n دولـة `{}`  \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str))
         else:
-            await zed.edit("**❈╎تم إضـافـة المنطقـة الزمنيـة .. بنجـاح ☑️**\n**❈╎المضـاف اليـه : ↶**\n دولـة `{}`  \n**❈╎يتم الآن إعـادة تشغيـل بـوت تيبـثون يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str))
+            await zed.edit("**❈╎تم إضـافـة المنطقـة الزمنيـة .. بنجـاح ☑️**\n**❈╎المضـاف اليـه : ↶**\n دولـة `{}`  \n**❈╎يتم الآن إعـادة تشغيـل بـوت كايدو يستغـرق الامر 2-1 دقيـقة ▬▭ ...**".format(input_str))
         heroku_var[variable] = viran
 
 
