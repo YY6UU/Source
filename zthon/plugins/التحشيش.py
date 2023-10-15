@@ -169,7 +169,7 @@ async def permalink(mention):
 ########################  SOURCE ZED ~ BY: ZelZal (@zzzzl1l)  ########################
 
 ZelzalTHS_cmd = (
-    "𓆩 [𝗦𝗼𝘂𝗿𝗰𝗲 𝗣𝗼𝘄𝗲𝗿𝘁𝗵𝗼𝗻 𝗖𝗼𝗻𝗳𝗶𝗴 𝗩𝗮𝗿𝘀 - اوامـر التحشيش](t.me/Power_Thon) 𓆪\n\n"
+    "𓆩 [𝗦𝗼𝘂𝗿𝗰𝗲 𝗞𝗮𝗶𝗱𝗼 𝗖𝗼𝗻𝗳𝗶𝗴 𝗩𝗮𝗿𝘀 - اوامـر التحشيش](t.me/) 𓆪\n\n"
     "**- اضغـط ع الامـر للنسـخ ثـم قـم بالـرد ع الشخـص** \n\n"
     "**⪼** `.اوصف` \n"
     "**⪼** `.هينه` \n"
@@ -204,7 +204,7 @@ ZelzalTHS_cmd = (
     "**⪼** `.رفع زباله` \n"
     "**⪼** `.رفع منشئ` \n"
     "**⪼** `.رفع مدير` \n"
-    "**⪼** `.رفع كواد` \n"
+    "**⪼** `.رفع كيكة` \n"
     "🛃 سيتـم اضـافة المزيـد من تخصيص الاوامـر بالتحديثـات الجـايه\n"
 )
 
@@ -401,7 +401,7 @@ wasf = [
 heno = [
     "تنجب وما تندك بأسيادك فاهم؟ ",
     "تعال ابن القندرة اليوم انعل والديك",
-    "لك حيوان كواد استقر لك",
+    "لك حيوان كيكة استقر لك",
     "مااهين حيوانات اني 😹😭💘.",
 ]
 
@@ -702,7 +702,7 @@ async def zed(mention):
     my_first = me.first_name
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
     await edit_or_reply(mention, f"**🚹 ╎ المستخـدم  ⪼ • ** [{zedth2}](tg://user?id={user.id}) \n☑️ **╎ تم رفعـه مدير الكروب 🤵‍♂️.** \n**🤵‍♂️ ╎ بواسطـه  :** {my_mention} ")
-@zedub.zed_cmd(pattern="رفع كواد(?: |$)(.*)")
+@zedub.zed_cmd(pattern="رفع كيكة(?: |$)(.*)")
 async def zed(mention):
     user, custom = await get_user_from_event(mention)
     if not user:
