@@ -715,7 +715,7 @@ async def zed(mention):
     me = await mention.client.get_me()
     my_first = me.first_name
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
-    await edit_or_reply(mention, f"**🚹 ╎ المستخـدم  ⪼ • ** [{zedth2}](tg://user?id={user.id}) \n☑️ **╎  تم رفعـه كـواد .. بنجـاح 👀. ** \n**🤵‍♂️ ╎ بواسطـه  :** {my_mention} ")
+    await edit_or_reply(mention, f"**🚹 ╎ المستخـدم  ⪼ • ** [{zedth2}](tg://user?id={user.id}) \n☑️ **╎  تم رفعـه كيكة .. بنجـاح 👀. ** \n**🤵‍♂️ ╎ بواسطـه  :** {my_mention} ")
 @zedub.zed_cmd(pattern="رفع مرتبط(?: |$)(.*)")
 async def zed(mention):
     user, custom = await get_user_from_event(mention)
